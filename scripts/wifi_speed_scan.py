@@ -5,7 +5,8 @@ import csv
 import os
 from datetime import datetime
 
-output_dir = os.path.expanduser("~/LOWA/data")
+# Set relative data path
+output_dir = os.path.join(os.path.dirname(__file__), "../data")
 os.makedirs(output_dir, exist_ok=True)
 output_file = os.path.join(output_dir, "wifi_speed_data.csv")
 
@@ -27,10 +28,12 @@ while True:
         iperf_cmd = ["iperf3", "-c", "192.168.10.242", "-t", "10", "-P", "4", "-R", "--json"]
         iperf_result = json.loads(subprocess.run(iperf_cmd, capture_output=True, text=True).stdout)
         
-        # Extract iperf3 metrics (sum of streams)
-        throughput_mbps = iperf_result["end"]["sum_received"]["bits_per_second"] / 1e6
-        jitter_ms = iperf_result["end"]["sum"]["jitter_ms"] if "jitter_ms" in iperf_result["end"]["sum"] else 0
-        loss_percent = iperf_result["end"]["sum"]["lost_percent"] if "lost_percent" in iperf_result["end"]["sum"] else 0
+        # Extract iperf3 metrics (handle varying JSON structure)
+        end = iperf_result.get("end", {})
+        sum_data = end.get("sum") or end.get("sum_received") or end.get("sum_sent") or {}
+        throughput_mbps = sum_data.get("bits_per_second", 0) / 1e6
+        jitter_ms = sum_data.get("jitter_ms", 0)
+        loss_percent = sum_data.get("lost_percent", 0)
 
         with open(output_file, 'a', newline='') as f:
             writer = csv.writer(f)
@@ -47,7 +50,7 @@ while True:
                     jitter_ms,
                     loss_percent
                 ])
-        time.sleep(15)  # Scan every 15s to allow iperf3 completion
+        time.sleep(15)  # Scan every 15s
     except Exception as e:
         print(f"Error: {e}")
         time.sleep(5)
