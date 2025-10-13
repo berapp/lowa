@@ -1,1 +1,0 @@
-timestamp,lat,long,ssid,bssid,signal_dbm,channel,channel_overlap,connected_ssid,connected_bssid,connected_rssi,site_number,iperf_direction,iperf_throughput_mbps,iperf_jitter_ms,iperf_loss_percent
