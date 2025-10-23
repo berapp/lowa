@@ -1,5 +1,0 @@
-timestamp,ssid,bssid,signal_dbm,channel,iperf3_server,iperf_direction,iperf_throughput_mbps,iperf_jitter_ms,iperf_loss_percent,packets,lost_packets,lat,long,devicename
-2025-10-23T11:59:58.390119+00:00,northtrail,78:8a:20:49:2d:4a,-46,11,192.168.42.213,upload,72.48995325240449,,0,,,,,Unknown
-2025-10-23T12:00:10.507420+00:00,northtrail,78:8a:20:49:2d:4a,-46,11,192.168.42.213,download,1.3616985910005843,,0,,,,,Unknown
-2025-10-23T12:01:08.066832+00:00,northtrail,78:8a:20:49:2d:4a,-42,11,192.168.42.213,upload,75.06011735252294,,0,,,,,Unknown
-2025-10-23T12:01:20.177279+00:00,northtrail,78:8a:20:49:2d:4a,-42,11,192.168.42.213,download,1.3617128737746047,,0,,,,,Unknown
