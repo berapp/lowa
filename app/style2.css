@@ -1,0 +1,123 @@
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+/* Link Styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+.panel {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  padding: 10px;
+  z-index: 1001;
+  font-size: 15px;
+  min-width: 220px;
+}
+#legend-panel {
+  top: auto;
+  bottom: 20px;
+  left: 20px;
+  min-width: 240px;
+  font-size: 14px;
+}
+/* Responsive panels */
+@media (max-width: 700px) {
+  .panel {
+    left: 5px;
+    top: 5px;
+    padding: 6px;
+    min-width: 120px;
+    font-size: 13px;
+  }
+  #legend-panel {
+    min-width: 120px;
+    font-size: 12px;
+    left: 5px;
+    bottom: 5px;
+  }
+}
+
+/* filter controls next to AP selector */
+.filter-controls {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.filter-controls label {
+  font-size: 13px;
+}
+.filter-controls select,
+.filter-controls input {
+  font-size: 13px;
+  padding: 3px 4px;
+}
+.test-count {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .filter-controls {
+    gap: 4px;
+  }
+  .filter-controls select, .filter-controls input { font-size: 12px; }
+  .test-count { font-size: 12px; }
+}
+
+/* Marker details panel */
+.marker-details {
+  margin-top: 8px;
+  max-height: 220px;
+  overflow: auto;
+  border-top: 1px solid #eee;
+  padding-top: 6px;
+}
+.marker-details-header { margin-bottom: 6px; }
+.marker-details-list { font-size: 13px; }
+.marker-row { display: flex; justify-content: space-between; padding: 6px 8px; border-bottom: 1px solid rgba(0,0,0,0.04); gap: 12px; align-items: center; }
+.marker-row-left { color: #333; font-weight: 500; flex: 1 1 auto; min-width: 0; }
+.marker-row-right { text-align: right; color: #222; flex: 0 0 240px; max-width: 45%; word-break: break-word; }
+.marker-row small { display: block; color: #666; }
+.marker-row[data-index] { cursor: pointer; }
+.marker-row[data-index]:hover { background: rgba(0,0,0,0.03); }
+
+/* Selected row highlight */
+.marker-row.selected { background: rgba(0,123,255,0.10); border-left: 3px solid rgba(0,123,255,0.9); }
+.marker-row.selected .marker-row-left { color: #003370; }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RV Resort WiFi & Speed Visualization</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="leaflet.css" />
+  <link rel="stylesheet" href="font-awesome.min.css" />
+  <link rel="stylesheet" href="leaflet.awesome-markers.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .legend, .layer-control, .filter-control {
+      background: white;
+      padding: 10px;
+      line-height: 1.2em;
+      border-radius: 6px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+      font-size: 13px;
+      margin-bottom: 8px;
+      min-width: 240px;
+    }
+    .legend { margin-bottom: 0; background: white; }
+    #map { width: 100vw; height: 100vh; }
+    select, input { margin-bottom: 3px; }
+    @media (max-width: 700px) {
+      .legend, .layer-control, .filter-control {
+        min-width: 160px;
+        font-size: 12px;
+        padding: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script src="leaflet.js"></script>
+  <script src="papaparse.min.js"></script>
+  <script src="leaflet-heat.js"></script>
+  <script src="leaflet.awesome-markers.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
