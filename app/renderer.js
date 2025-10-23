@@ -93,7 +93,7 @@ fetch('aps.json')
 
 // --- Load Speed Test Data ---
 function loadSpeedTestData(cb) {
-  fetch('iperf3_data.csv')
+  fetch('data/iperf3_data.csv')
     .then(response => response.text())
     .then(csvText => {
       // Try parsing with header first. If the file has no header (first row is data), fall back to index mapping.

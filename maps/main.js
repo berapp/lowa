@@ -269,7 +269,7 @@ function plotSpeedTests() {
   });
 }
 
-fetch('iperf3_data.csv')
+fetch('data/iperf3_data.csv')
   .then(response => response.text())
   .then(csvText => {
     Papa.parse(csvText, {
@@ -315,7 +315,7 @@ function plotHeatmap() {
   heatLayer.addTo(map);
 }
 
-fetch('signal_data.csv')
+fetch('data/signal_data.csv')
   .then(response => response.text())
   .then(csvText => {
     Papa.parse(csvText, {

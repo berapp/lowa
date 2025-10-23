@@ -135,7 +135,7 @@ function updateHeatLayer(points) {
 
 function loadHeatData(cb) {
   // Use the signal dataset for heatmap
-  fetch('signal_data.csv')
+  fetch('data/signal_data.csv')
     .then(r => r.text())
     .then(txt => {
       Papa.parse(txt, { header: true, dynamicTyping: true, complete: res => {
