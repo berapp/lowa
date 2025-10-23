@@ -1,0 +1,3 @@
+timestamp,ssid,bssid,signal_dbm,channel,iperf3_server,iperf_direction,iperf_throughput_mbps,iperf_jitter_ms,iperf_loss_percent,packets,lost_packets,lat,long,devicename
+2025-10-23T17:02:03.836770+00:00,Bermuda,9e:05:d6:96:2c:47,-49,158,192.168.10.242,upload,358.45971896087855,,0,,,,,inside2
+2025-10-23T17:02:16.019274+00:00,Bermuda,9e:05:d6:96:2c:47,-49,158,192.168.10.242,download,385.5700777961238,,0,,,,,inside2

@@ -1,0 +1,110 @@
+timestamp,lat,long,bssid,signal_dbm,frequency,channel,ssid,devicename
+20251023_170119,,,9e:05:d6:96:2c:47,-44,5785,158,Bermuda,inside2
+20251023_170119,,,9c:05:d6:d6:2c:47,-44,5785,158,Bermuda Guest WIFI,inside2
+20251023_170119,,,9e:05:d6:96:2c:46,-63,2412,1,Bermuda Guest WIFI 2G,inside2
+20251023_170119,,,9c:05:d6:d6:2c:46,-63,2412,1,Bermuda 2G,inside2
+20251023_170119,,,9e:05:d6:a6:20:6f,-64,5745,150,Bermuda,Unknown
+20251023_170119,,,9e:05:d6:96:20:6f,-64,5745,150,Bermuda Guest WIFI,inside1
+20251023_170119,,,9e:05:d6:b6:20:6f,-64,5745,150,Private WIFI,Unknown
+20251023_170119,,,9c:05:d6:d6:20:6f,-64,5745,150,Private WIFI,inside1
+20251023_170119,,,9c:05:d6:d6:11:ff,-68,5805,162,Bermuda Guest WIFI,inside3
+20251023_170119,,,9e:05:d6:96:11:ff,-68,5805,162,Bermuda,inside3
+20251023_170119,,,28:70:4e:23:62:7b,-71,5765,154,Bermuda Guest WIFI,inside6
+20251023_170119,,,2a:70:4e:13:62:7b,-72,5765,154,Bermuda,inside6
+20251023_170119,,,9e:05:d6:96:20:6e,-74,2437,6,Bermuda 2G,inside1
+20251023_170119,,,9c:05:d6:d6:20:6e,-74,2437,6,Private WIFI,inside1
+20251023_170119,,,9e:05:d6:a6:20:6e,-75,2437,6,Bermuda Guest WIFI 2G,Unknown
+20251023_170119,,,2a:70:4e:13:62:7a,-76,2437,6,Bermuda Guest WIFI 2G,inside6
+20251023_170119,,,28:70:4e:23:62:7a,-77,2437,6,Bermuda 2G,inside6
+20251023_170119,,,9e:05:d6:96:11:fe,-77,2462,11,Bermuda Guest WIFI 2G,inside3
+20251023_170119,,,9c:05:d6:d6:11:fe,-80,2462,11,Bermuda 2G,inside3
+20251023_170119,,,9c:05:d6:d6:25:73,-81,5220,45,Bermuda Guest WIFI,inside4
+20251023_170119,,,9e:05:d6:96:25:73,-82,5220,45,Bermuda,inside4
+20251023_170119,,,9c:05:d6:d6:22:af,-83,5805,162,Bermuda Guest WIFI,inside5
+20251023_170119,,,9e:05:d6:96:25:72,-86,2412,1,Bermuda Guest WIFI 2G,inside4
+20251023_170119,,,9c:05:d6:e9:8e:7d,-88,2412,1,Bermuda 2G,Outside6
+20251023_170119,,,9e:05:d6:96:2c:47,-42,5785,158,Bermuda,inside2
+20251023_170119,,,9c:05:d6:d6:2c:47,-42,5785,158,Bermuda Guest WIFI,inside2
+20251023_170119,,,9e:05:d6:96:2c:46,-58,2412,1,Bermuda Guest WIFI 2G,inside2
+20251023_170119,,,9c:05:d6:d6:2c:46,-58,2412,1,Bermuda 2G,inside2
+20251023_170119,,,9e:05:d6:a6:20:6f,-58,5745,150,Bermuda,Unknown
+20251023_170119,,,9e:05:d6:b6:20:6f,-58,5745,150,Private WIFI,Unknown
+20251023_170119,,,9c:05:d6:d6:20:6f,-58,5745,150,Private WIFI,inside1
+20251023_170119,,,9e:05:d6:96:20:6f,-64,5745,150,Bermuda Guest WIFI,inside1
+20251023_170119,,,9e:05:d6:96:20:6e,-68,2437,6,Bermuda 2G,inside1
+20251023_170119,,,9e:05:d6:a6:20:6e,-68,2437,6,Bermuda Guest WIFI 2G,Unknown
+20251023_170119,,,9c:05:d6:d6:20:6e,-69,2437,6,Private WIFI,inside1
+20251023_170119,,,9c:05:d6:d6:11:ff,-71,5805,162,Bermuda Guest WIFI,inside3
+20251023_170119,,,9e:05:d6:96:11:ff,-71,5805,162,Bermuda,inside3
+20251023_170119,,,28:70:4e:23:62:7b,-73,5765,154,Bermuda Guest WIFI,inside6
+20251023_170119,,,2a:70:4e:13:62:7b,-73,5765,154,Bermuda,inside6
+20251023_170119,,,06:8f:5a:2b:36:96,-74,2452,9,Newmar8727,Unknown
+20251023_170119,,,02:8f:5a:2b:36:96,-75,2452,9,Pvt.WFR_Spruce.8727,Unknown
+20251023_170119,,,2a:70:4e:13:62:7a,-76,2437,6,Bermuda Guest WIFI 2G,inside6
+20251023_170119,,,28:70:4e:23:62:7a,-76,2437,6,Bermuda 2G,inside6
+20251023_170119,,,9e:05:d6:96:11:fe,-77,2462,11,Bermuda Guest WIFI 2G,inside3
+20251023_170119,,,9e:05:d6:96:22:ae,-77,2462,11,Bermuda Guest WIFI 2G,inside5
+20251023_170119,,,9c:05:d6:d6:11:fe,-80,2462,11,Bermuda 2G,inside3
+20251023_170119,,,9c:05:d6:d6:25:73,-81,5220,45,Bermuda Guest WIFI,inside4
+20251023_170119,,,9c:05:d6:d6:22:af,-82,5805,162,Bermuda Guest WIFI,inside5
+20251023_170119,,,9e:05:d6:96:25:73,-82,5220,45,Bermuda,inside4
+20251023_170119,,,9e:05:d6:96:22:af,-82,5805,162,Bermuda,inside5
+20251023_170119,,,9e:05:d6:96:25:72,-86,2412,1,Bermuda Guest WIFI 2G,inside4
+20251023_170119,,,9c:05:d6:e9:8e:7d,-88,2412,1,Bermuda 2G,Outside6
+20251023_170119,,,9e:05:d6:96:2c:47,-44,5785,158,Bermuda,inside2
+20251023_170119,,,9c:05:d6:d6:2c:47,-44,5785,158,Bermuda Guest WIFI,inside2
+20251023_170119,,,9e:05:d6:a6:20:6f,-61,5745,150,Bermuda,Unknown
+20251023_170119,,,9e:05:d6:96:20:6f,-61,5745,150,Bermuda Guest WIFI,inside1
+20251023_170119,,,9e:05:d6:b6:20:6f,-62,5745,150,Private WIFI,Unknown
+20251023_170119,,,9c:05:d6:d6:20:6f,-62,5745,150,Private WIFI,inside1
+20251023_170119,,,9c:05:d6:d6:11:ff,-66,5805,162,Bermuda Guest WIFI,inside3
+20251023_170119,,,9c:05:d6:d6:2c:46,-67,2412,1,Bermuda 2G,inside2
+20251023_170119,,,9e:05:d6:96:11:ff,-67,5805,162,Bermuda,inside3
+20251023_170119,,,9e:05:d6:96:2c:46,-68,2412,1,Bermuda Guest WIFI 2G,inside2
+20251023_170119,,,28:70:4e:23:62:7b,-72,5765,154,Bermuda Guest WIFI,inside6
+20251023_170119,,,2a:70:4e:13:62:7b,-73,5765,154,Bermuda,inside6
+20251023_170119,,,06:8f:5a:2b:36:96,-74,2452,9,Newmar8727,Unknown
+20251023_170119,,,2a:70:4e:13:62:7a,-75,2437,6,Bermuda Guest WIFI 2G,inside6
+20251023_170119,,,02:8f:5a:2b:36:96,-75,2452,9,Pvt.WFR_Spruce.8727,Unknown
+20251023_170119,,,28:70:4e:23:62:7a,-76,2437,6,Bermuda 2G,inside6
+20251023_170119,,,9e:05:d6:96:20:6e,-77,2437,6,Bermuda 2G,inside1
+20251023_170119,,,9e:05:d6:a6:20:6e,-77,2437,6,Bermuda Guest WIFI 2G,Unknown
+20251023_170119,,,9e:05:d6:96:22:ae,-77,2462,11,Bermuda Guest WIFI 2G,inside5
+20251023_170119,,,9c:05:d6:d6:20:6e,-78,2437,6,Private WIFI,inside1
+20251023_170119,,,9c:05:d6:d6:11:fe,-79,2462,11,Bermuda 2G,inside3
+20251023_170119,,,9e:05:d6:96:11:fe,-80,2462,11,Bermuda Guest WIFI 2G,inside3
+20251023_170119,,,9c:05:d6:d6:25:73,-81,5220,45,Bermuda Guest WIFI,inside4
+20251023_170119,,,9e:05:d6:96:25:73,-82,5220,45,Bermuda,inside4
+20251023_170119,,,9c:05:d6:d6:22:af,-83,5805,162,Bermuda Guest WIFI,inside5
+20251023_170119,,,9e:05:d6:96:22:af,-83,5805,162,Bermuda,inside5
+20251023_170119,,,9e:05:d6:96:25:72,-87,2412,1,Bermuda Guest WIFI 2G,inside4
+20251023_170119,,,9c:05:d6:e9:8e:7d,-88,2412,1,Bermuda 2G,Outside6
+20251023_170119,,,9e:05:d6:96:2c:47,-42,5785,158,Bermuda,inside2
+20251023_170119,,,9c:05:d6:d6:2c:47,-42,5785,158,Bermuda Guest WIFI,inside2
+20251023_170119,,,9e:05:d6:96:2c:46,-57,2412,1,Bermuda Guest WIFI 2G,inside2
+20251023_170119,,,9c:05:d6:d6:2c:46,-57,2412,1,Bermuda 2G,inside2
+20251023_170119,,,9e:05:d6:a6:20:6f,-58,5745,150,Bermuda,Unknown
+20251023_170119,,,9e:05:d6:96:20:6f,-58,5745,150,Bermuda Guest WIFI,inside1
+20251023_170119,,,9e:05:d6:b6:20:6f,-58,5745,150,Private WIFI,Unknown
+20251023_170119,,,9c:05:d6:d6:20:6f,-58,5745,150,Private WIFI,inside1
+20251023_170119,,,9e:05:d6:96:20:6e,-67,2437,6,Bermuda 2G,inside1
+20251023_170119,,,9c:05:d6:d6:20:6e,-67,2437,6,Private WIFI,inside1
+20251023_170119,,,9e:05:d6:a6:20:6e,-67,2437,6,Bermuda Guest WIFI 2G,Unknown
+20251023_170119,,,9c:05:d6:d6:11:ff,-69,5805,162,Bermuda Guest WIFI,inside3
+20251023_170119,,,9e:05:d6:96:11:ff,-69,5805,162,Bermuda,inside3
+20251023_170119,,,28:70:4e:23:62:7b,-72,5765,154,Bermuda Guest WIFI,inside6
+20251023_170119,,,2a:70:4e:13:62:7b,-72,5765,154,Bermuda,inside6
+20251023_170119,,,2a:70:4e:13:62:7a,-75,2437,6,Bermuda Guest WIFI 2G,inside6
+20251023_170119,,,28:70:4e:23:62:7a,-76,2437,6,Bermuda 2G,inside6
+20251023_170119,,,9c:05:d6:d6:22:ae,-77,2462,11,Bermuda 2G,inside5
+20251023_170119,,,9e:05:d6:96:22:ae,-78,2462,11,Bermuda Guest WIFI 2G,inside5
+20251023_170119,,,9c:05:d6:d6:11:fe,-79,2462,11,Bermuda 2G,inside3
+20251023_170119,,,02:8f:5a:2b:36:96,-79,2452,9,Pvt.WFR_Spruce.8727,Unknown
+20251023_170119,,,06:8f:5a:2b:36:96,-79,2452,9,Newmar8727,Unknown
+20251023_170119,,,9e:05:d6:96:11:fe,-80,2462,11,Bermuda Guest WIFI 2G,inside3
+20251023_170119,,,9c:05:d6:d6:22:af,-80,5805,162,Bermuda Guest WIFI,inside5
+20251023_170119,,,9e:05:d6:96:22:af,-80,5805,162,Bermuda,inside5
+20251023_170119,,,9c:05:d6:d6:25:73,-81,5220,45,Bermuda Guest WIFI,inside4
+20251023_170119,,,9e:05:d6:96:25:73,-82,5220,45,Bermuda,inside4
+20251023_170119,,,9e:05:d6:96:25:72,-87,2412,1,Bermuda Guest WIFI 2G,inside4
+20251023_170119,,,9c:05:d6:e9:8e:7d,-88,2412,1,Bermuda 2G,Outside6

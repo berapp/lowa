@@ -354,7 +354,7 @@ def main():
         IPERF_SERVER = CLUBHOUSE
 
     # Load APS data
-    with open('aps.json', 'r') as f:
+    with open('../app/data/aps.json', 'r') as f:
         aps_data = json.load(f)
     bssid_to_name = {}
     for ap in aps_data:
@@ -368,9 +368,10 @@ def main():
             bssid_to_name[ap['bssid_guest5']] = ap['devicename']
 
     ts = datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')
-    filename = f'data/signal_data.csv'
-    filename_iperf3 = f'data/iperf3_data.csv'
-    
+    today = datetime.now(timezone.utc).strftime('%Y%m%d')
+    filename = f'../app/data/signal_data_{today}.csv'
+    filename_iperf3 = f'../app/data/iperf3_data_{today}.csv'
+
     # Ensure CSV headers exist so client-side parsers see consistent fields
     ensure_csv_header(filename, ['timestamp', 'lat', 'long', 'bssid', 'signal_dbm', 'frequency', 'channel', 'ssid', 'devicename'])
     ensure_csv_header(filename_iperf3, ['timestamp', 'ssid', 'bssid', 'signal_dbm', 'channel', 'iperf3_server', 'iperf_direction', 'iperf_throughput_mbps', 'iperf_jitter_ms', 'iperf_loss_percent', 'packets', 'lost_packets', 'lat', 'long', 'devicename'])
