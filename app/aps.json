@@ -403,14 +403,6 @@
         "pole_id": "15"
     },
     {
-        "host": "192.168.10.xxx",
-        "username": "Admin",
-        "bssid_24": "28:70:4e:d0:89:x",
-        "bssid_5": "28:70:4e:d0:89:x",
-        "bssid_guest24": "2e:70:4e:d0:89:x",
-        "bssid_guest5": "2e:70:4e:d0:89:x",
-        "channel_24": "11",
-        "channel_5": "40",
         "devicename": "pole 16",
         "deviceid": "63",
         "pole_id": "16"
@@ -528,7 +520,7 @@
         "bssid_guest5": "22:6a:1b:63:f6:f2",
         "channel_24": "auto",
         "channel_5": "auto",
-        "devicename": "Outside S 1",
+        "devicename": "Outside SE",
         "deviceid": "69"
     },
     {
@@ -540,7 +532,7 @@
         "bssid_guest5": "22:6a:1b:63:f6:f6",
         "channel_24": "auto",
         "channel_5": "auto",
-        "devicename": "Outside S 2",
+        "devicename": "Outside SW",
         "deviceid": "70"
 
     }

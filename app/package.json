@@ -16,5 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^38.4.0"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "^13.0.0",
+    "serialport": "^13.0.0"
   }
 }

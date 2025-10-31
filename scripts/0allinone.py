@@ -367,10 +367,10 @@ def main():
         if ap.get('bssid_guest5'):
             bssid_to_name[ap['bssid_guest5']] = ap['devicename']
 
-    ts = datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')
-    today = datetime.now(timezone.utc).strftime('%Y%m%d')
-    filename = f'../app/data/signal_data_{today}.csv'
-    filename_iperf3 = f'../app/data/iperf3_data_{today}.csv'
+    ts = datetime.now(timezone.utc).strftime('%Y-%m-%d_%H-%M-%S')
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    filename = f'../app/data/signal_data_consolidated.csv'
+    filename_iperf3 = f'../app/data/iperf3_consolidated.csv'
 
     # Ensure CSV headers exist so client-side parsers see consistent fields
     ensure_csv_header(filename, ['timestamp', 'lat', 'long', 'bssid', 'signal_dbm', 'frequency', 'channel', 'ssid', 'devicename'])

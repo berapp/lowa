@@ -1,0 +1,5 @@
+timestamp,ssid,bssid,signal_dbm,channel,iperf3_server,iperf_direction,iperf_throughput_mbps,iperf_jitter_ms,iperf_loss_percent,packets,lost_packets,lat,long,devicename
+2025-10-28T17:25:25.789317+00:00,Bermuda,2e:70:4e:d0:86:c3,-74,154,192.168.10.242,upload,67.08214657460331,,0,,,,,pole 12 W
+2025-10-28T17:25:38.273878+00:00,Bermuda,2e:70:4e:d0:86:c3,-74,154,192.168.10.242,download,60.43754452065434,,0,,,,,pole 12 W
+2025-10-28T17:32:31.469425+00:00,Bermuda,2e:70:4e:d0:88:fa,-68,154,192.168.10.242,upload,99.52643002505484,,0,,,,,pole 11
+2025-10-28T17:32:43.866148+00:00,Bermuda,2e:70:4e:d0:88:fa,-68,154,192.168.10.242,download,64.14093467090775,,0,,,,,pole 11
